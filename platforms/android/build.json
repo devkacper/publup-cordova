@@ -1,0 +1,11 @@
+{
+  "android": {
+      "release": {
+        "keystore": "publup-key.keystore",
+        "storePassword": "G6!@k8&#",
+        "alias": "publup",
+        "password": "G6!@k8&#",
+        "keystoreType": ""
+      }
+  }
+}
