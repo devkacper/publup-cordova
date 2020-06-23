@@ -20,6 +20,9 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        document.addEventListener("online", function(){
+            window.location="https://publup.com";
+            }, false);
     },
 
     // deviceready Event Handler

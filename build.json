@@ -3,7 +3,7 @@
       "release": {
         "keystore": "publup-key.keystore",
         "storePassword": "G6!@k8&#",
-        "alias": "publup",
+        "alias": "publup-key",
         "password": "G6!@k8&#",
         "keystoreType": ""
       }
