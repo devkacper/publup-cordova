@@ -20,6 +20,9 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        document.addEventListener("online", function(){
+            window.location="https://publup.com";
+            }, false);
     },
 
     // deviceready Event Handler
@@ -27,7 +30,11 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
-        window.location="https://publup.com";
+        if (navigator.connection.type == Connection.NONE) {
+            document.body.innerHTML = '<h1>Connect to the internet to use the app.</h1>'
+        } else {
+            window.location="https://publup.com";
+        }
     },
 
     // Update DOM on a Received Event
