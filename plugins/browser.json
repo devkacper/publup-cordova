@@ -12,6 +12,15 @@
     },
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.publup.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.publup.app"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.publup.app"
     }
   },
   "dependent_plugins": {}

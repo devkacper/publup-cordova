@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.publup.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Publup</name>
-    <icon src="www/img/icon.png" />
     <description>
         Easier, faster and more effective way to express yourself.
     </description>
-    <author email="theofficialpublup@gmail.com" href="https://publup.com">
+    <author email="theofficialpublup@gmail.com" href="https://publup.com/pages/contact">
         Publup contact
     </author>
     <content src="index.html" />
@@ -16,4 +15,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <splash src="res/ios/screen/Default@2x~universal~anyany.png" />
+    <preference name="BackgroundColor" value="0x202124" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#202124" />
 </widget>

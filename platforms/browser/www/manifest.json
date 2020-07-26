@@ -6,12 +6,7 @@
   "version": "com.publup.app",
   "description": "Easier, faster and more effective way to express yourself.",
   "author": "Publup contact",
-  "icons": [
-    {
-      "src": "www/img/icon.png",
-      "type": "image/png",
-      "sizes": "undefinedxundefined"
-    }
-  ],
-  "start_url": "index.html"
+  "icons": [],
+  "start_url": "index.html",
+  "theme_color": "#202124"
 }
